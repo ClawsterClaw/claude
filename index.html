@@ -85,11 +85,13 @@
       padding: 6px 12px;
       border-radius: 8px;
       transition: all 0.15s;
+      border-bottom: 2px solid transparent;
     }
 
     .nav-links a:hover {
       color: var(--text);
       background: var(--bg2);
+      border-bottom-color: #0D7377;
     }
 
     .nav-github {
@@ -123,7 +125,7 @@
       font-weight: 500;
       letter-spacing: 1.5px;
       text-transform: uppercase;
-      color: var(--accent);
+      color: #0D7377;
       margin-bottom: 10px;
     }
 
@@ -460,19 +462,19 @@
   </section>
 
   <div class="stats">
-    <div class="stat">
+    <div class="stat" style="border-top: 2px solid #0D7377;">
       <span class="stat-num" id="stat-capabilities">5</span>
       <span class="stat-label">Capabilities</span>
     </div>
-    <div class="stat">
+    <div class="stat" style="border-top: 2px solid #C83010;">
       <span class="stat-num" id="stat-projects">1</span>
       <span class="stat-label">Projects</span>
     </div>
-    <div class="stat">
+    <div class="stat" style="border-top: 2px solid #D4820A;">
       <span class="stat-num" id="stat-skills">0</span>
       <span class="stat-label">Skills</span>
     </div>
-    <div class="stat">
+    <div class="stat" style="border-top: 2px solid #2E5FA3;">
       <span class="stat-num" id="stat-templates">0</span>
       <span class="stat-label">Templates</span>
     </div>
@@ -484,7 +486,7 @@
 
   <div class="sections-grid">
 
-    <a href="capabilities.html" class="section-card">
+    <a href="capabilities.html" class="section-card" style="border-left: 4px solid #0D7377; background: rgba(13,115,119,0.04);">
       <div class="card-header">
         <span class="card-title">Capabilities</span>
         <span class="card-count">5 phases</span>
@@ -500,7 +502,7 @@
       <p class="card-arrow">View capabilities →</p>
     </a>
 
-    <a href="projects.html" class="section-card">
+    <a href="projects.html" class="section-card" style="border-left: 4px solid #C83010; background: rgba(200,48,16,0.04);">
       <div class="card-header">
         <span class="card-title">Projects</span>
         <span class="card-count">1 active</span>
@@ -513,7 +515,7 @@
       <p class="card-arrow">View projects →</p>
     </a>
 
-    <a href="resources/skills.html" class="section-card">
+    <a href="resources/skills.html" class="section-card" style="border-left: 4px solid #D4820A; background: rgba(212,130,10,0.04);">
       <div class="card-header">
         <span class="card-title">Skills Library</span>
         <span class="card-count">0 skills</span>
@@ -526,7 +528,7 @@
       <p class="card-arrow">View skills →</p>
     </a>
 
-    <a href="resources/templates.html" class="section-card">
+    <a href="resources/templates.html" class="section-card" style="border-left: 4px solid #2E5FA3; background: rgba(46,95,163,0.04);">
       <div class="card-header">
         <span class="card-title">Templates</span>
         <span class="card-count">0 templates</span>
@@ -540,7 +542,7 @@
       <p class="card-arrow">View templates →</p>
     </a>
 
-    <a href="resources/decisions.html" class="section-card">
+    <a href="resources/decisions.html" class="section-card" style="border-left: 4px solid #2D6A4F; background: rgba(45,106,79,0.04);">
       <div class="card-header">
         <span class="card-title">Decisions Log</span>
         <span class="card-count">0 decisions</span>
@@ -554,7 +556,7 @@
       <p class="card-arrow">View decisions →</p>
     </a>
 
-    <a href="resources/changelog.html" class="section-card">
+    <a href="resources/changelog.html" class="section-card" style="border-left: 4px solid #0D7377; background: rgba(13,115,119,0.04);">
       <div class="card-header">
         <span class="card-title">Changelog</span>
         <span class="card-count">auto-updated</span>

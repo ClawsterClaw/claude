@@ -24,10 +24,10 @@
     .page-title { font-family: 'Syne', sans-serif; font-size: 34px; font-weight: 800; letter-spacing: -1px; margin-bottom: 10px; }
     .page-sub { font-size: 14px; color: var(--muted); font-weight: 300; }
     .content { max-width: 860px; margin: 0 auto; padding: 0 40px 80px; }
-    .empty-state { background: var(--surface); border: 1px dashed var(--border); border-radius: var(--radius); padding: 64px 32px; text-align: center; }
+    .empty-state { background: rgba(212,130,10,0.04); border: 1px dashed var(--border); border-left: 4px solid #D4820A; border-radius: var(--radius); padding: 64px 32px; text-align: center; }
     .empty-title { font-family: 'Syne', sans-serif; font-size: 16px; font-weight: 700; margin-bottom: 10px; }
     .empty-desc { font-size: 13px; color: var(--muted); font-weight: 300; max-width: 400px; margin: 0 auto; line-height: 1.6; }
-    .empty-hint { margin-top: 20px; font-size: 12px; color: var(--accent); font-family: monospace; background: #FBF0ED; padding: 8px 16px; border-radius: 8px; display: inline-block; }
+    .empty-hint { margin-top: 20px; font-size: 12px; color: #D4820A; font-family: monospace; background: #FFF4E6; border: 1px solid #F5D5A0; padding: 8px 16px; border-radius: 8px; display: inline-block; }
     footer { border-top: 1px solid var(--border); padding: 20px 40px; display: flex; align-items: center; justify-content: space-between; max-width: 860px; margin: 0 auto; }
     .footer-left { font-size: 12px; color: var(--muted); }
     .footer-right a { font-size: 12px; color: var(--accent); text-decoration: none; }
@@ -47,7 +47,7 @@
     </ul>
   </nav>
 
-  <div class="page-header">
+  <div class="page-header" style="background: rgba(212,130,10,0.04);">
     <a href="../resources.html" class="back-link">← Back to resources</a>
     <h1 class="page-title">Skills Library</h1>
     <p class="page-sub">Custom skills for Claude Code. Each skill encodes a workflow so Claude applies it automatically.</p>

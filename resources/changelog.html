@@ -25,7 +25,7 @@
     .page-sub { font-size: 14px; color: var(--muted); font-weight: 300; }
     .content { max-width: 860px; margin: 0 auto; padding: 0 40px 80px; }
     .changelog-box { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
-    .changelog-header { padding: 16px 24px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
+    .changelog-header { padding: 16px 24px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; background: rgba(200,48,16,0.04); }
     .changelog-title { font-family: 'Syne', sans-serif; font-size: 13px; font-weight: 700; }
     .changelog-sub { font-size: 11px; color: var(--muted); }
     .view-all { font-size: 12px; color: var(--accent); text-decoration: none; }
@@ -33,7 +33,7 @@
     .commit-list { padding: 0; }
     .commit-item { display: flex; align-items: flex-start; gap: 14px; padding: 16px 24px; border-bottom: 1px solid var(--border); transition: background 0.12s; }
     .commit-item:last-child { border-bottom: none; }
-    .commit-item:hover { background: var(--bg); }
+    .commit-item:hover { background: rgba(200,48,16,0.03); }
     .commit-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); margin-top: 7px; flex-shrink: 0; }
     .commit-body { flex: 1; }
     .commit-msg { font-size: 13.5px; color: var(--text); }
@@ -59,7 +59,7 @@
     </ul>
   </nav>
 
-  <div class="page-header">
+  <div class="page-header" style="background: rgba(200,48,16,0.04);">
     <a href="../resources.html" class="back-link">← Back to resources</a>
     <h1 class="page-title">Changelog</h1>
     <p class="page-sub">Every change, always current. Auto-generated from git history on every push. Never written manually.</p>
